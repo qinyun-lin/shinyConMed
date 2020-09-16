@@ -10,7 +10,7 @@ ui <- fluidPage(
              tabPanel("No",
                       sidebarLayout(
                         sidebarPanel(
-                          tags$img(src="model.PNG",width="100%"),
+                          tags$img(src="model.png",width="100%"),
                           numericInput(inputId = "rxmo",
                                        label = "Correlation between X and Mo",
                                        value = 0.1807, min = -1, max = 1, step = 0.01),
@@ -39,7 +39,7 @@ ui <- fluidPage(
                       ),
              tabPanel("Yes, I can guess rmomu and rymu.",
                       sidebarLayout(
-                        sidebarPanel(tags$img(src="model.PNG",width="100%"),
+                        sidebarPanel(tags$img(src="model.png",width="100%"),
                                      numericInput(inputId = "rxmo2",
                                                   label = "Correlation between X and Mo",
                                                   value = 0.1807, min = -1, max = 1, step = 0.01),
@@ -73,7 +73,7 @@ ui <- fluidPage(
                       )),
              tabPanel("Yes, I can guess rxmu and rymu.",
                       sidebarLayout(
-                        sidebarPanel(tags$img(src="model.PNG",width="100%"),
+                        sidebarPanel(tags$img(src="model.png",width="100%"),
                                      numericInput(inputId = "rxmo3",
                                                   label = "Correlation between X and Mo",
                                                   value = 0.1807, min = -1, max = 1, step = 0.01),
@@ -107,7 +107,7 @@ ui <- fluidPage(
                       )),
              tabPanel("Yes, I can guess rxmu and rmomu.",
                       sidebarLayout(
-                        sidebarPanel(tags$img(src="model.PNG",width="100%"),
+                        sidebarPanel(tags$img(src="model.png",width="100%"),
                                      numericInput(inputId = "rxmo4",
                                                   label = "Correlation between X and Mo",
                                                   value = 0.1807, min = -1, max = 1, step = 0.01),
