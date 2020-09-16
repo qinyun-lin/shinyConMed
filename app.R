@@ -1,6 +1,4 @@
 library(shiny)
-
-devtools::install_github("linqinyu/ConMed")
 library(ConMed)
 
 
